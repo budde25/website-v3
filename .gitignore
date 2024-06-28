@@ -1,0 +1,5 @@
+# Ignore Hugo artifacts
+/public/
+/resources/
+/static/
+.hugo_build.lock

@@ -1,0 +1,47 @@
+baseURL = 'https://budd.dev/'
+languageCode = 'en-us'
+title = 'Ethan Budd'
+theme = 'hugo-coder'
+
+[params]
+author = "Ethan Budd"
+description = "Ethan Budd's personal website"
+keywords = "blog,developer,personal"
+gravatar = "budde25@protonmail.com"
+colorScheme = "auto"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/budde25/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/ethan-budd/"
+
+[languages.en]
+languageName = ":us:"
+
+# [[languages.en.menu.main]]
+# name = "About"
+# weight = 1
+# url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+# [[languages.en.menu.main]]
+# name = "Projects"
+# weight = 3
+# url = "projects/"
